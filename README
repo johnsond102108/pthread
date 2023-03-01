@@ -1,1 +1,7 @@
 
+Makefile compiles all three programs.
+Files:
+  -one.c: no synchronization
+  -two.c: locks
+  -three.c: test and set
+Takes command line arguments in the form 'x y' because I couldn't figure out the other way
